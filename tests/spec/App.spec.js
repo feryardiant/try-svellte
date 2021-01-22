@@ -1,5 +1,5 @@
 import {render} from '@testing-library/svelte';
-import {expect} from 'chai';
+import {expect} from '@esm-bundle/chai';
 import App from '../../src/App.svelte';
 
 describe('<App>', () => {
