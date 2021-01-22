@@ -2,5 +2,9 @@
 process.env.NODE_ENV = 'test';
 
 module.exports = {
-  plugins: [require('@snowpack/web-test-runner-plugin')()],
+  nodeResolve: true,
+  files: 'test/**/*.test.js',
+  plugins: [
+    require('@snowpack/web-test-runner-plugin')()
+  ],
 };
