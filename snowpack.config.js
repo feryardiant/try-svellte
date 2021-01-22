@@ -3,7 +3,7 @@ module.exports = {
   mount: {
     public: {url: '/', static: true},
     src: {url: '/dist'},
-    test: {url: '/', resolve: false}
+    tests: {url: '/', resolve: false}
   },
   plugins: [
     '@snowpack/plugin-svelte',
